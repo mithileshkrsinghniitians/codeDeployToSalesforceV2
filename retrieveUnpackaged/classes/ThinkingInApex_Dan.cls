@@ -1,6 +1,5 @@
 /* Jenkins Deploy Test  */
 /* Code Change done on GitHub Repository to pick the jobs by Jenkins & deploy to Salesforce Org*/
-/* Testing From Jenkins */
 public class ThinkingInApex_Dan
 {
  public static List<Contact> associateContacts = null;
