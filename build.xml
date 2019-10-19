@@ -40,8 +40,7 @@
 
     <!-- Deploy the unpackaged set of metadata retrieved with retrieveUnpackaged -->
     <target name="deployUnpackaged">
-	   <sf:deploy deployRoot="retrieveUnpackaged"/>
-      <!-- <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="retrieveUnpackaged"/> -->
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="retrieveUnpackaged"/>
     </target>
 	
 	<target name="deployUnpackaged1">
